@@ -1,6 +1,8 @@
-[Path]
-PathExists=-media-ben-IC\x20RECORDER
-
 [Unit]
 Description="IC Recorder Path"
-PartOf=ic_recorder.service
+
+[Path]
+PathExists=/media/ben/test
+
+[Install]
+WantedBy=multi-user.target
