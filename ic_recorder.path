@@ -2,7 +2,7 @@
 Description="IC Recorder Path"
 
 [Path]
-PathExists=/media/ben/test
+PathExists=/media/ben/IC RECORDER
 
 [Install]
 WantedBy=multi-user.target
