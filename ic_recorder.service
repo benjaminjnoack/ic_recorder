@@ -1,0 +1,8 @@
+[Service]
+ExecStart=/home/ben/projects/ic_recorder/ic_recorder
+
+[Unit]
+Description="IC Recorder Service"
+
+[Install]
+WantedBy=multi-user.target
