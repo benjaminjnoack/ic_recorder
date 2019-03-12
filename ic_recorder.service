@@ -1,8 +1,8 @@
-[Service]
-ExecStart=/home/ben/projects/ic_recorder/ic_recorder
-
 [Unit]
 Description="IC Recorder Service"
+
+[Service]
+ExecStart=/usr/bin/ic_recorder
 
 [Install]
 WantedBy=multi-user.target
