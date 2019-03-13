@@ -1,10 +1,10 @@
+#default goal
 #link the executable
-#the first rule is the default
 ic_recorder : main.o
 	gcc -o ic_recorder main.o
 	
 #compile main
-main.o :
+main.o : main.c
 	gcc -Wall -c main.c
 
 clean :
