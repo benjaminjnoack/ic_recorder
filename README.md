@@ -9,3 +9,4 @@ Make the application portable by dynamically discovering the username.
 * the service file could call the main program with an argument
 * or the main program could query the operating system for that information
 
+Use the notification system in Linux to display how many files have been moved
